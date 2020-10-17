@@ -1,0 +1,69 @@
+body {
+	background-color: #44bcd8;
+}
+
+table, th, td {
+	border: 1px solid black;
+}
+
+img {
+	height: 500px;
+	width: 750px;
+}
+
+nav:link {
+	color: blue;
+}
+
+nav:visited {
+	color: red;
+}
+
+nav:hover {
+	background: yellow;
+	color: red;
+}
+	
+.infoFlex.h1 {
+	text-align: center;
+}
+	
+.websiteTitle {
+	text-align: center;
+}	
+
+.NavFlexBox {
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+}
+
+.updatesSection {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+
+.infoFlex {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.recentFlex {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.linksFlex {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.info {
+	text-align: center;
+	width: 750px;
+}
